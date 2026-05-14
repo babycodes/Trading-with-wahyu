@@ -1,8 +1,8 @@
 :root {
     --bg-dark: #0b1120;
-    --primary: #10b981;
-    --primary-hover: #059669;
-    --secondary: #3b82f6;
+    --primary: #ef4444;
+    --primary-hover: #dc2626;
+    --secondary: #f43f5e;
     --text-main: #f8fafc;
     --text-muted: #94a3b8;
     --card-bg: #1e293b;
@@ -57,13 +57,13 @@ body {
 .btn-primary {
     background-color: var(--primary);
     color: var(--bg-dark);
-    box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);
+    box-shadow: 0 4px 14px rgba(239, 68, 68, 0.4);
 }
 
 .btn-primary:hover {
     background-color: var(--primary-hover);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6);
+    box-shadow: 0 6px 20px rgba(239, 68, 68, 0.6);
 }
 
 .btn-outline {
@@ -202,7 +202,7 @@ nav.scrolled {
     position: absolute;
     width: 300px;
     height: 300px;
-    background: radial-gradient(circle, rgba(16,185,129,0.15) 0%, rgba(11,17,32,0) 70%);
+    background: radial-gradient(circle, rgba(239, 68, 68, 0.15) 0%, rgba(11,17,32,0) 70%);
     border-radius: 50%;
     z-index: 1;
 }
@@ -223,14 +223,14 @@ nav.scrolled {
 }
 
 .bar.up {
-    background: linear-gradient(to top, #059669, #10b981);
-    box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);
+    background: linear-gradient(to top, #dc2626, #ef4444);
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
     height: 60%;
 }
 
 .bar.down {
-    background: linear-gradient(to top, #be123c, #f43f5e);
-    box-shadow: 0 0 15px rgba(244, 63, 94, 0.4);
+    background: linear-gradient(to top, #475569, #64748b);
+    box-shadow: 0 0 15px rgba(100, 116, 139, 0.4);
     height: 40%;
 }
 
@@ -295,7 +295,7 @@ nav.scrolled {
 
 .card-icon.blue { color: var(--secondary); }
 .card-icon.green { color: var(--primary); }
-.card-icon.cyan { color: #06b6d4; }
+.card-icon.cyan { color: #fb7185; }
 
 .card h3 {
     font-size: 1.5rem;
@@ -345,7 +345,7 @@ nav.scrolled {
 }
 
 .strategi-number {
-    background-color: rgba(16, 185, 129, 0.1);
+    background-color: rgba(239, 68, 68, 0.1);
     color: var(--primary);
     width: 40px;
     height: 40px;
